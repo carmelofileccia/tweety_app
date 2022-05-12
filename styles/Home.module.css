@@ -1,5 +1,15 @@
 .container {
-  padding: 0 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 40px;
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.35);
+  gap: 40px;
+  color: rgb(82, 82, 82);
+  background-color: rgb(255, 255, 255);
 }
 
 .main {
@@ -7,9 +17,8 @@
   padding: 4rem 0;
   flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
 }
 
 .footer {
